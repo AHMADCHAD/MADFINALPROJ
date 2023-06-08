@@ -1,0 +1,39 @@
+{
+  "expo": {
+    "name": "MADFINALPROJ",
+    "slug": "MADFINALPROJ",
+    "plugins": [
+      "@react-native-google-signin/google-signin"
+    ],
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      }
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "516fbc14-0066-45ba-a764-812fc4937efe"
+      }
+    },
+    "owner": "ahmadhassan"
+  }
+}
